@@ -1,5 +1,3 @@
-console.log("Hello World");
-
 const getUserData = (accessToken) => {
   return fetch(`https://api.spotify.com/v1/me`, {
       headers: {
