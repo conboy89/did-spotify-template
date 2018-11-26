@@ -34,12 +34,21 @@
                 
         </div>
 		
-		<button>
+		<button id="listener">
             <a href="#" alt="onClick">CLICK ME</a>
         </button>
+            
+        <p id="test"></p>    
             
         </div>
         
     <script type="module" src="/js/pages/main.js"></script>
+    <script>
+document.getElementById("listener").addEventListener("click", displayDate);
+
+function displayDate() {
+    document.getElementById("test").innerHTML = Date();
+}
+</script>
     </body> 
 </html>
