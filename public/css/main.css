@@ -1,0 +1,76 @@
+body {
+    background-color:#191414;
+    width: 100%;
+    font-family: Montserrat , Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1DB954;
+}
+
+#main-container{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+}
+
+.logo{
+    margin: 10% 50% 0% 35%;
+}
+
+.header{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#music-container{
+    width: 100%;
+    height: 300px;  
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+	display: inline;
+}
+
+.left-artist {
+	float: left;
+}
+
+.right-artist {
+	float: left;
+	padding-left: 20px;
+}
+
+button {
+	background-color: #1DB954;
+	border: none;
+	border-radius: 25px;
+	padding:15px 60px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 14px;
+	line-height: 1;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
+button a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+button:hover{
+	background-color: #50e383;
+	transition-duration: .8s;
+}
+
+button:active {
+	top: 2px;
+}
+
+
+
+
