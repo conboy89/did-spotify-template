@@ -8,11 +8,19 @@ h1 {
     color: #1DB954;
 }
 
+p{
+	color: #1DB954;
+}
+
 #main-container{
     position: absolute;
     width: 50%;
     left: 25%;
     right: 25%;
+}
+
+#login-button{
+    margin-top: 400px;
 }
 
 .logo{
@@ -26,10 +34,10 @@ h1 {
 
 #music-container{
     width: 100%;
-    height: 300px;  
+    height: 100px;  
 	float: left;
-	text-align: center;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	display: inline;
 }
 
@@ -38,8 +46,7 @@ h1 {
 }
 
 .right-artist {
-	float: left;
-	padding-left: 20px;
+	float: right;
 }
 
 button {
@@ -55,11 +62,12 @@ button {
 	display: block;
 	margin: 0 auto;
 	position: relative;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 button a {
-	text-decoration: none;
-	color: #ffffff;
+	
 }
 
 button:hover{
